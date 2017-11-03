@@ -1,8 +1,8 @@
 # rtl8812au
 
-## Realtek 8812AU driver version 5.2.9
+## Realtek 8812AU driver version 5.2.9.3
 
-Works fine with Ubuntu 17.04 Zesty 4.10 kernel. Also now tested and working fine on 4.11, 4.12 and 4.13-rc1, after recent commits.
+Works fine with Ubuntu 17.10 Artful 4.13 kernel.
 Only support 8812AU. Now has every known (to me) device USB ID, sorted by ID number.
 
 Source builds with no warnings or errors, and is very stable in use.
