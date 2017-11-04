@@ -41,7 +41,7 @@ $ sudo dkms remove -m rtl8812au -v 5.2.9 --all
 To install the dkms package on Debian, Ubuntu, Mint &etc:
 
 ```sh
-$ sudo dpkg -i gord-rtl8812au-dkms_1.0-10_amd64.deb
+$ sudo dpkg -i gord-rtl8812au-dkms_1.0-11_amd64.deb
 ```
 
 To uninstall the dkms package on Debian, Ubuntu, Mint &etc:
