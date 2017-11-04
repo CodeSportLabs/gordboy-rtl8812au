@@ -1,7 +1,23 @@
 Product: RTL8812A USB Software Package - Linux Driver
-Version: v5.2.9_22809.20170621
+Version: v5.2.9.3_24903.20171101
 
 Release History:
+
+v5.2.9.3_24903.20171101
+
+  1. Fixed WPA2 vulnerability - key reinstallation attacks(KRACKs)
+
+v5.2.9.2_24491.20171027
+
+  1. Remove test code
+  2. Fix crash for BF function
+  3. Fix wrong memory accesse
+  4. Fix encrypt broadcast packet fail
+  5. Fix crash for TDLS
+
+v5.2.9.1_24461.20171018
+
+  1. (Do not use)
 
 v5.2.9_22809.20170621
 
