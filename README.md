@@ -2,7 +2,7 @@
 
 ## Realtek 8812AU driver version 5.2.9.3
 
-Works fine with Ubuntu 17.10 Artful 4.13 kernel.
+Works fine with Ubuntu 17.10 Artful 4.13 kernel, and now 4.14 kernel.
 Only support 8812AU. Now has every known (to me) device USB ID, sorted by ID number.
 
 Source builds with no warnings or errors, and is very stable in use.
@@ -41,7 +41,7 @@ $ sudo dkms remove -m rtl8812au -v 5.2.9 --all
 To install the dkms package on Debian, Ubuntu, Mint &etc:
 
 ```sh
-$ sudo dpkg -i gord-rtl8812au-dkms_1.0-11_amd64.deb
+$ sudo dpkg -i gord-rtl8812au-dkms_1.0-12_amd64.deb
 ```
 
 To uninstall the dkms package on Debian, Ubuntu, Mint &etc:
