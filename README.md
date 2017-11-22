@@ -8,7 +8,7 @@ Only support 8812AU. Now has every known (to me) device USB ID, sorted by ID num
 
 Source builds with no warnings or errors, and is very stable in use. Realtek seem to have done a decent job here.
 
-Added (cosmeticly edited) original Realtek_Changelog.txt, this README.md and kms.conf.
+Added (cosmeticly edited) original Realtek_Changelog.txt, this README.md and dkms.conf.
 
 Removed debian package - too many commits and rebuilds
 
