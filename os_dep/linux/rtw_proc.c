@@ -2699,6 +2699,9 @@ const struct rtw_proc_hdl adapter_proc_hdls[] = {
 
 	RTW_PROC_HDL_SSEQ("ack_timeout", proc_get_ack_timeout, proc_set_ack_timeout),
 
+#ifdef CONFIG_SW_LED
+  RTW_PROC_HDL_SSEQ("led_enable", proc_get_led_enable, proc_set_led_enable),
+#endif //CONFIG_SW_LED
 };
 
 const int adapter_proc_hdls_num = sizeof(adapter_proc_hdls) / sizeof(struct rtw_proc_hdl);

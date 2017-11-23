@@ -421,6 +421,9 @@ struct registry_priv {
 	u8 check_hw_status;
 
 	u32 pci_aspm_config;
+#ifdef CONFIG_SW_LED
+  u8 led_enable;
+#endif
 };
 
 /* For registry parameters */
